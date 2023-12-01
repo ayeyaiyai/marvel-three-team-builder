@@ -1,0 +1,267 @@
+import jill from '../images/jill-portrait.png';
+import nemesis from '../images/nemesis-portrait.png';
+import firebrand from '../images/firebrand-portrait.png';
+import strider from '../images/strider-portrait.png';
+import phoenixWright from '../images/phoenix-wright-portrait.png';
+import chris from '../images/chris-portrait.png';
+
+const characters = [
+    {
+        id: 0,
+        name: "Jill Valentine",
+        position: ["Point"],
+        src: jill
+
+
+    },
+    {
+        id: 1,
+        name: "Nemesis-T Type",
+        position: ["Point"],
+        src: nemesis
+    },
+    {
+        id: 2,
+        name: "Firebrand",
+        position: ["Point"],
+        src: firebrand
+    },
+    {
+        id: 3,
+        name: "Strider",
+        position: ["Anchor"],
+        src: strider
+    },
+    {
+        id: 4,
+        name: "Phoenix Wright",
+        position: ["Point", "Mid"],
+        src: phoenixWright
+    },
+    {
+        id: 5,
+        name: "Chris Redfield",
+        position: ["Point"],
+        src: chris
+    },
+    {
+        id: 6,
+        name: "Arthur",
+        position: ["Mid", "Anchor"]
+    },
+    {
+        id: 7,
+        name: "Frank West",
+        position: ["Mid", "Anchor"]
+    },
+    {
+        id: 8,
+        name: "Vergil",
+        position: ["Point", "Mid", "Anchor"]
+    },
+    {
+        id: 9,
+        name: "Wesker",
+        position: ["Point"]
+    },
+    {
+        id: 10,
+        name: "Zero",
+        position: ["Point", "Anchor"]
+    },
+    {
+        id: 11,
+        name: "Ryu",
+        position: ["Point", "Mid"]
+    },
+    {
+        id: 12,
+        name: "Dante",
+        position: ["Mid", "Anchor"]
+    },
+    {
+        id: 13,
+        name: "Morrigan",
+        position: ["Point", "Mid", "Anchor"]
+    },
+    {
+        id: 14,
+        name: "Tron Bonne",
+        position: ["Point"]
+    },
+    {
+        id: 15,
+        name: "Chun Li",
+        position: ["Point"]
+    },
+    {
+        id: 16,
+        name: "Trish",
+        position: ["Point", "Mid"]
+    },
+    {
+        id: 17,
+        name: "Felicia",
+        position: ["Point"]
+    },
+    {
+        id: 18,
+        name: "Spencer",
+        position: ["Point", "Mid"]
+    },
+    {
+        id: 19,
+        name: "Akuma",
+        position: ["Anchor"]
+    },
+    {
+        id: 20,
+        name: "Viewtiful Joe",
+        position: ["Anchor"]
+    },
+    {
+        id: 21,
+        name: "Hsien-Ko",
+        position: ["Point", "Mid"]
+    },
+    {
+        id: 22,
+        name: "Haggar",
+        position: ["Point", "Anchor"]
+    },
+    {
+        id: 23,
+        name: "C. Viper",
+        position: ["Point"]
+    },
+    {
+        id: 24,
+        name: "Amaterasu",
+        position: ["Point", "Mid", "Anchor"]
+    },
+    {
+        id: 25,
+        name: "Shuma-Gorath",
+        position: ["Point", "Anchor"]
+    },
+    {
+        id: 26,
+        name: "Nova",
+        position: ["Point", "Anchor"]
+    },
+    {
+        id: 27,
+        name: "Ghost Rider",
+        position: ["Point"]
+    },
+    {
+        id: 28,
+        name: "Hawkeye",
+        position: ["Anchor"]
+    },
+    {
+        id: 29,
+        name: "Dr. Strange",
+        position: ["Mid", "Anchor"]
+    },
+    {
+        id: 30,
+        name: "Iron Fist",
+        position: ["Point", "Anchor"]
+    },
+    {
+        id: 31,
+        name: "Rocket Raccoon",
+        position: ["Mid", "Anchor"]
+    },
+    {
+        id: 32,
+        name: "Captain America",
+        position: ["Point"]
+    },
+    {
+        id: 33,
+        name: "Dormammu",
+        position: ["Point", "Mid"]
+    },
+    {
+        id: 34,
+        name: "Deadpool",
+        position: ["Point"]
+    },
+    {
+        id: 35,
+        name: "Wolverine",
+        position: ["Point"]
+    },
+    {
+        id: 36,
+        name: "Iron Man",
+        position: ["Mid", "Anchor"]
+    },
+    {
+        id: 37,
+        name: "Doctor Doom",
+        position: ["Mid", "Anchor"]
+    },
+    {
+        id: 38,
+        name: "X-23",
+        position: ["Anchor"]
+    },
+    {
+        id: 39,
+        name: "Storm",
+        position: ["Point", "Mid"]
+    },
+    {
+        id: 40,
+        name: "Thor",
+        position: ["Point"]
+    },
+    {
+        id: 41,
+        name: "MODOK",
+        position: ["Point", "Mid"]
+    },
+    {
+        id: 42,
+        name: "Spider-Man",
+        position: ["Point"]
+    },
+    {
+        id: 43,
+        name: "Sentinel",
+        position: ["Mid", "Anchor"]
+    },
+    {
+        id: 44,
+        name: "Hulk",
+        position: ["Point"]
+    },
+    {
+        id: 45,
+        name: "Super Skrull",
+        position: ["Point", "Anchor"]
+    },
+    {
+        id: 46,
+        name: "Phoenix",
+        position: ["Anchor"]
+    },
+    {
+        id: 47,
+        name: "Magneto",
+        position: ["Point", "Mid", "Anchor"]
+    },
+    {
+        id: 48,
+        name: "She-Hulk",
+        position: ["Point"]
+    },
+    {
+        id: 49,
+        name: "Taskmaster",
+        position: ["Point"]
+    }
+]
